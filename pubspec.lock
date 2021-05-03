@@ -18,9 +18,11 @@ packages:
   arkit_plugin:
     dependency: "direct main"
     description:
-      name: arkit_plugin
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "42651da17a9d077e79992a2688e1be19d9aea4d4"
+      url: "git://github.com/olexale/arkit_flutter_plugin.git"
+    source: git
     version: "0.6.2"
   async:
     dependency: transitive
