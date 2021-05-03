@@ -1,4 +1,4 @@
-import 'sphere_page.dart';
+import 'page2.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(home: MyApp()));
@@ -26,8 +26,7 @@ class MyApp extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) =>
-                      SpherePage(yourname: textController.text),
+                  builder: (context) => Page2(yourname: textController.text),
                 ),
               );
             },
